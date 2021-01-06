@@ -7,26 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA794EC025A5196200D91E02 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA794EBF25A5196200D91E02 /* ChatMessage.swift */; };
+		DA794EC325A51C6E00D91E02 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA794EC225A51C6E00D91E02 /* ChatView.swift */; };
+		DA794EC725A51CC900D91E02 /* ChatBubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA794EC625A51CC900D91E02 /* ChatBubbleShape.swift */; };
+		DA794ECB25A51DE400D91E02 /* ChatBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA794ECA25A51DE400D91E02 /* ChatBubbleView.swift */; };
+		DA794ECE25A525BC00D91E02 /* ChatHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA794ECD25A525BC00D91E02 /* ChatHeaderView.swift */; };
 		DAC29C7D25A50EDF00E45977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC29C7C25A50EDF00E45977 /* AppDelegate.swift */; };
 		DAC29C7F25A50EDF00E45977 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC29C7E25A50EDF00E45977 /* SceneDelegate.swift */; };
-		DAC29C8125A50EDF00E45977 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC29C8025A50EDF00E45977 /* ContentView.swift */; };
 		DAC29C8325A50EE100E45977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC29C8225A50EE100E45977 /* Assets.xcassets */; };
 		DAC29C8625A50EE100E45977 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC29C8525A50EE100E45977 /* Preview Assets.xcassets */; };
 		DAC29C8925A50EE100E45977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC29C8725A50EE100E45977 /* LaunchScreen.storyboard */; };
 		DAC29C9425A512F800E45977 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = DAC29C9325A512F800E45977 /* SocketIO */; };
 		DAC29C9725A5143400E45977 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC29C9625A5143400E45977 /* ChatManager.swift */; };
+		DAEB466325A53551001A8FDF /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEB466225A53551001A8FDF /* Colors.xcassets */; };
+		DAEB466725A535D8001A8FDF /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB466625A535D8001A8FDF /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA794EBF25A5196200D91E02 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		DA794EC225A51C6E00D91E02 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		DA794EC625A51CC900D91E02 /* ChatBubbleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleShape.swift; sourceTree = "<group>"; };
+		DA794ECA25A51DE400D91E02 /* ChatBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
+		DA794ECD25A525BC00D91E02 /* ChatHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatHeaderView.swift; sourceTree = "<group>"; };
 		DAC29C7925A50EDF00E45977 /* SocketChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC29C7C25A50EDF00E45977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAC29C7E25A50EDF00E45977 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAC29C8025A50EDF00E45977 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DAC29C8225A50EE100E45977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAC29C8525A50EE100E45977 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAC29C8825A50EE100E45977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAC29C8A25A50EE100E45977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAC29C9625A5143400E45977 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
+		DAEB466225A53551001A8FDF /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DAEB466625A535D8001A8FDF /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA794EBE25A5194E00D91E02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA794EBF25A5196200D91E02 /* ChatMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA794EC525A51CB500D91E02 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				DA794EC625A51CC900D91E02 /* ChatBubbleShape.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
 		DAC29C7025A50EDF00E45977 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +88,7 @@
 		DAC29C7B25A50EDF00E45977 /* SocketChat */ = {
 			isa = PBXGroup;
 			children = (
+				DAEB466525A535C8001A8FDF /* Extensions */,
 				DAC29C9C25A5158B00E45977 /* Resources */,
 				DAC29C9A25A5156900E45977 /* ServiceLayer */,
 				DAC29C9925A5155D00E45977 /* ViewLayer */,
@@ -81,8 +110,11 @@
 		DAC29C9925A5155D00E45977 /* ViewLayer */ = {
 			isa = PBXGroup;
 			children = (
+				DA794EC525A51CB500D91E02 /* Shapes */,
 				DAC29C8725A50EE100E45977 /* LaunchScreen.storyboard */,
-				DAC29C8025A50EDF00E45977 /* ContentView.swift */,
+				DA794EC225A51C6E00D91E02 /* ChatView.swift */,
+				DA794ECA25A51DE400D91E02 /* ChatBubbleView.swift */,
+				DA794ECD25A525BC00D91E02 /* ChatHeaderView.swift */,
 			);
 			path = ViewLayer;
 			sourceTree = "<group>";
@@ -90,6 +122,7 @@
 		DAC29C9A25A5156900E45977 /* ServiceLayer */ = {
 			isa = PBXGroup;
 			children = (
+				DA794EBE25A5194E00D91E02 /* Models */,
 				DAC29C9625A5143400E45977 /* ChatManager.swift */,
 			);
 			path = ServiceLayer;
@@ -100,8 +133,17 @@
 			children = (
 				DAC29C8425A50EE100E45977 /* Preview Content */,
 				DAC29C8225A50EE100E45977 /* Assets.xcassets */,
+				DAEB466225A53551001A8FDF /* Colors.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DAEB466525A535C8001A8FDF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DAEB466625A535D8001A8FDF /* Color+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAC29C8925A50EE100E45977 /* LaunchScreen.storyboard in Resources */,
+				DAEB466325A53551001A8FDF /* Colors.xcassets in Resources */,
 				DAC29C8625A50EE100E45977 /* Preview Assets.xcassets in Resources */,
 				DAC29C8325A50EE100E45977 /* Assets.xcassets in Resources */,
 			);
@@ -182,7 +225,12 @@
 			files = (
 				DAC29C7D25A50EDF00E45977 /* AppDelegate.swift in Sources */,
 				DAC29C7F25A50EDF00E45977 /* SceneDelegate.swift in Sources */,
-				DAC29C8125A50EDF00E45977 /* ContentView.swift in Sources */,
+				DA794EC725A51CC900D91E02 /* ChatBubbleShape.swift in Sources */,
+				DA794EC025A5196200D91E02 /* ChatMessage.swift in Sources */,
+				DAEB466725A535D8001A8FDF /* Color+Extensions.swift in Sources */,
+				DA794EC325A51C6E00D91E02 /* ChatView.swift in Sources */,
+				DA794ECE25A525BC00D91E02 /* ChatHeaderView.swift in Sources */,
+				DA794ECB25A51DE400D91E02 /* ChatBubbleView.swift in Sources */,
 				DAC29C9725A5143400E45977 /* ChatManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
